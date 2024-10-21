@@ -67,3 +67,4 @@ Make sure to edit build command like this while you use Prisma as ORM while depl
 - Integrated Magic link signin &
 - Forgot password
 - Added loader on buttons# vesel
+# vesel
