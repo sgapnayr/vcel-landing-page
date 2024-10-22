@@ -54,11 +54,13 @@ Make sure to edit build command like this while you use Prisma as ORM while depl
 ![prisma-vercel](https://nextjstemplates.com/docs/prisma-vercel.png)
 
 ### Update Logs
+
 **February 2024:**
+
 - Updated Stripe Integraion: Loading pricing data from pricingData file
 
-
 **March 2024:**
+
 - Upgraded to next 14
 - Fixed auth issues
 - Updated all the packages
@@ -66,5 +68,6 @@ Make sure to edit build command like this while you use Prisma as ORM while depl
 - Update signin & signup page design
 - Integrated Magic link signin &
 - Forgot password
-- Added loader on buttons# vesel
-# vesel
+- Added loader on buttons# VeeSell
+
+# VeeSell

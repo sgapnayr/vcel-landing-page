@@ -44,8 +44,8 @@ const AiToolPage = () => {
   return (
     <>
       <title>
-        OpenAI Examples | VeSel - The Relationship App for Long-Term Connections
-        & Trust
+        OpenAI Examples | VeeSell - The Relationship App for Long-Term
+        Connections & Trust
       </title>
       <meta name="description" content="This is AI Examples page for AI Tool" />
 

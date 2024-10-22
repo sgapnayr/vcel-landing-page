@@ -52,14 +52,14 @@ const CallToAction = () => {
                 height={16}
               />
 
-              <span className="hero-subtitle-text">Join VeSel Today</span>
+              <span className="hero-subtitle-text">Join VeeSell Today</span>
             </span>
             <h2 className="mb-4.5 text-2xl font-extrabold text-white sm:text-4xl xl:text-heading-2">
               Strengthen Your Relationship Now
             </h2>
             <p className="mx-auto mb-9 max-w-[714px] font-medium">
-              Start building a lasting connection with your partner using VeSel.
-              Set shared goals, track milestones, and invest in your
+              Start building a lasting connection with your partner using
+              VeeSell. Set shared goals, track milestones, and invest in your
               relationship with ease.
             </p>
 

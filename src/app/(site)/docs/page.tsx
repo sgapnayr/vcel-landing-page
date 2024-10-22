@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Docs | VeSel - The Relationship App for Long-Term Connections & Trust",
+    "Docs | VeeSell - The Relationship App for Long-Term Connections & Trust",
   description: "This is Docs page for AI Tool",
   // other metadata
 };

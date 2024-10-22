@@ -40,10 +40,10 @@ const Hero = () => {
             </span>
           </span>
           <h1 className="mb-6 text-3xl font-extrabold text-white sm:text-5xl xl:text-heading-1">
-            Welcome to VeSel!
+            Welcome to VeeSell!
           </h1>
           <p className="mx-auto mb-9 max-w-[500px] font-medium md:text-lg">
-            VeSel is your relationship companion, helping couples invest in
+            VeeSell is your relationship companion, helping couples invest in
             their connection with joint goals, milestone tracking, and escrow
             accounts for shared savings. Build stronger, long-lasting
             relationships today.
@@ -65,7 +65,7 @@ const Hero = () => {
         <Image
           className="mx-auto"
           src="./images/hero/hero.svg"
-          alt="VeSel Hero"
+          alt="VeeSell Hero"
           fill
         />
       </div>

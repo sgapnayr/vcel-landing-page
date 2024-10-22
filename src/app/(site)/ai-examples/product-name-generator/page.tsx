@@ -64,7 +64,7 @@ const ProductNameGeneratorPage = () => {
   return (
     <>
       <title>
-        Product Name Generator | VeSel - The Relationship App for Long-Term
+        Product Name Generator | VeeSell - The Relationship App for Long-Term
         Connections & Trust
       </title>
       <meta name="description" content="This is AI Examples page for AI Tool" />

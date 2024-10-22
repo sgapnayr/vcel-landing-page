@@ -57,7 +57,7 @@ const InterviewQuestionGeneratorPage = () => {
   return (
     <>
       <title>
-        Interview Question Generator | VeSel - The Relationship App for
+        Interview Question Generator | VeeSell - The Relationship App for
         Long-Term Connections & Trust
       </title>
       <meta name="description" content="This is AI Examples page for AI Tool" />

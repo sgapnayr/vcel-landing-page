@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Error | VeSel - The Relationship App for Long-Term Connections & Trust",
+    "Error | VeeSell - The Relationship App for Long-Term Connections & Trust",
   description: "This is Error page for AI Tool",
   // other metadata
 };
