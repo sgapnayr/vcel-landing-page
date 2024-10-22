@@ -123,7 +123,10 @@ export default async function BlogDetails({ params }: Props) {
                     />
                   </svg>
 
-                  <Link href={`/blog/author/${post?.author?.slug?.current}`} className="text-sm font-medium">
+                  <Link
+                    href={`/blog/author/${post?.author?.slug?.current}`}
+                    className="text-sm font-medium"
+                  >
                     {post?.author?.name}
                   </Link>
                 </div>
