@@ -40,7 +40,7 @@ const Hero = () => {
             </span>
           </span>
           <h1 className="mb-6 text-3xl font-extrabold text-white sm:text-5xl xl:text-heading-1">
-            Welcome to VCel!
+            Welcome!
           </h1>
           <p className="mx-auto mb-9 max-w-[500px] font-medium md:text-lg">
             VCel is your relationship companion, helping couples invest in their
