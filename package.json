@@ -10,7 +10,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "push": "next build && git add . && git commit -m 'deploy' && git push && next dev"
+    "push": "next build && next lint && git add . && git commit -m 'deploy' && git push && next dev"
   },
   "dependencies": {
     "@next-auth/prisma-adapter": "^1.0.7",
