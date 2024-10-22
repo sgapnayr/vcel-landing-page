@@ -1,5 +1,5 @@
 import SectionTitle from "../Common/SectionTitle";
-import SinglePricing from "./SInglePricing";
+import SinglePricing from "./SinglePricing";
 import { pricingData } from "../../../stripe/pricingData";
 
 const PricingGrids = () => {
