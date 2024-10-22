@@ -3,8 +3,7 @@ import { getAllPosts } from "@/libs/markdown";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:
-    "Docs | VeeSell - The Relationship App for Long-Term Connections & Trust",
+  title: "Docs | VCel - The Relationship App for Long-Term Connections & Trust",
   description: "This is Docs page for AI Tool",
   // other metadata
 };

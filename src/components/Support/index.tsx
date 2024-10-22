@@ -50,7 +50,7 @@ const Support = () => {
           <SectionTitle
             subTitle="Stay Updated"
             title="Strengthen Your Relationship Today!"
-            paragraph="Join our email list to receive the latest updates, features, and exclusive offers from VeeSell."
+            paragraph="Join our email list to receive the latest updates, features, and exclusive offers from VCel."
           />
 
           {/* <!-- email sign-up form --> */}

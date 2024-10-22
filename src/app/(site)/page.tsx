@@ -9,7 +9,7 @@ import Support from "@/components/Support";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "VeeSell - The Relationship App for Long-Term Connections & Trust ",
+  title: "VCel - The Relationship App for Long-Term Connections & Trust ",
   description: "This is Home for AI Tool",
 };
 
@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       {/* <NextSeo
-        title="VeeSell - The Relationship App for Long-Term Connections & Trust"
+        title="VCel - The Relationship App for Long-Term Connections & Trust"
         description="A short description goes here."
       /> */}
       <Hero />

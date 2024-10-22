@@ -11,8 +11,8 @@ const Features = () => {
       <div className="mx-auto max-w-[1222px] px-4 sm:px-8 xl:px-0">
         <SectionTitle
           subTitle="Main Features"
-          title="Key Features of VeeSell"
-          paragraph="Discover how VeeSell helps couples build stronger relationships through joint goals, milestone tracking, and more."
+          title="Key Features of VCel"
+          paragraph="Discover how VCel helps couples build stronger relationships through joint goals, milestone tracking, and more."
         />
 
         <div className="relative">

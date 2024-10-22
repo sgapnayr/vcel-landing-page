@@ -6,7 +6,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Pricing | VeeSell - The Relationship App for Long-Term Connections & Trust",
+    "Pricing | VCel - The Relationship App for Long-Term Connections & Trust",
   description: "This is Pricing page for AI Tool",
   // other metadata
 };

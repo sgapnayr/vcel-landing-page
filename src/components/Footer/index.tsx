@@ -27,11 +27,11 @@ const Footer = () => {
           <div className="flex flex-wrap justify-between">
             <div className="mb-10 w-full max-w-[520px]">
               <Link href="/" className="mb-8.5 inline-block">
-                <Image src={logo} alt="VeeSell Logo" width={164} height={36} />
+                <Image src={logo} alt="VCel Logo" width={164} height={36} />
               </Link>
 
               <p className="mb-12 xl:w-4/5">
-                VeeSell is designed to help couples build stronger, lasting
+                VCel is designed to help couples build stronger, lasting
                 relationships through shared goals, milestone tracking, and
                 innovative features.
               </p>
@@ -106,7 +106,7 @@ const Footer = () => {
               </div>
 
               <p className="mt-5.5 font-medium">
-                VeeSell, LLC. All rights reserved.
+                VCel, LLC. All rights reserved.
               </p>
             </div>
 

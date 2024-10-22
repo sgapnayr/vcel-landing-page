@@ -6,7 +6,7 @@ import ResetPassword from "@/components/Auth/ResetPassword";
 
 export const metadata: Metadata = {
   title:
-    "Reset Password | VeeSell - The Relationship App for Long-Term Connections & Trust",
+    "Reset Password | VCel - The Relationship App for Long-Term Connections & Trust",
   description: "This is Reset Password page for AI Tool",
   // other metadata
 };
