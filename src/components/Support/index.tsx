@@ -14,7 +14,7 @@ const Support = () => {
     const loading = toast.loading("Signing up...");
     try {
       const res = await axios.post(
-        `https://vcel-backend.vercel.app/api/email`,
+        `${process.env.VCEL_BACKEND_URL}/api/email`,
         {
           email,
           name,
@@ -24,10 +24,14 @@ const Support = () => {
       toast.dismiss(loading);
       toast.success("Signed up successfully!");
 
+      setEmail("");
+      setName("");
+
       console.log("Response:", res.data);
     } catch (error) {
+      console.log("Error:", error);
       toast.dismiss(loading);
-      toast.error("Failed to sign up");
+      toast.error((error as Error).message);
       console.error("Error:", error);
     }
   }
