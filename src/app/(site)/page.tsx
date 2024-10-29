@@ -10,7 +10,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "VCel - The Relationship App for Long-Term Connections & Trust ",
-  description: "This is Home for AI Tool",
+  description: "This is Home for the Relationship Tool",
 };
 
 export default function Home() {

@@ -9,6 +9,7 @@ import "../../styles/star.css";
 import "../../styles/tailwind.css";
 import AuthProvider from "../context/AuthContext";
 import ToasterContext from "../context/ToastContext";
+import { Toaster } from "react-hot-toast";
 
 export default function RootLayout({
   children,
@@ -26,6 +27,7 @@ export default function RootLayout({
         />
         <AuthProvider>
           <ToasterContext />
+          <Toaster />
           <Header />
           {children}
           <Footer />

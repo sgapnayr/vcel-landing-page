@@ -1,34 +1,60 @@
+"use client";
+
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
+import axios from "axios";
+import { useState } from "react";
+import toast from "react-hot-toast";
 
 const Support = () => {
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+
+  async function postEmail(email: string, name: string) {
+    const loading = toast.loading("Signing up...");
+    try {
+      const res = await axios.post(
+        `https://vcel-backend.vercel.app/api/email`,
+        {
+          email,
+          name,
+        },
+      );
+
+      toast.dismiss(loading);
+      toast.success("Signed up successfully!");
+
+      console.log("Response:", res.data);
+    } catch (error) {
+      toast.dismiss(loading);
+      toast.error("Failed to sign up");
+      console.error("Error:", error);
+    }
+  }
+
+  const handleSubmit = (e: any) => {
+    e.preventDefault();
+    postEmail(email, name);
+  };
+
   return (
     <section id="support" className="scroll-mt-17">
       <div className="mx-auto max-w-[1104px] px-4 sm:px-8 xl:px-0">
         <div className="features-box-border relative z-999 overflow-hidden rounded-[30px] bg-dark px-4 pt-25 sm:px-20 lg:px-27.5">
-          {/* <!-- grid row --> */}
+          {/* Grid row */}
           <div className="absolute -top-[16%] left-1/2 -z-1 flex w-full max-w-[690px] -translate-x-1/2 justify-center gap-7.5 opacity-40">
-            <div className="pricing-grid pricing-grid-border relative bottom-12 h-[250px] w-full max-w-[50px]"></div>
-            <div className="pricing-grid pricing-grid-border relative bottom-7 h-[250px] w-full max-w-[50px]"></div>
-            <div className="pricing-grid pricing-grid-border relative bottom-3 h-[250px] w-full max-w-[50px]"></div>
-            <div className="pricing-grid pricing-grid-border relative h-[250px] w-full max-w-[50px]"></div>
-            <div className="pricing-grid pricing-grid-border relative h-[250px] w-full max-w-[50px]"></div>
-            <div className="pricing-grid pricing-grid-border relative h-[250px] w-full max-w-[50px]"></div>
-            <div className="pricing-grid pricing-grid-border relative bottom-2 h-[250px] w-full max-w-[50px]"></div>
-            <div className="pricing-grid pricing-grid-border relative bottom-5 h-[250px] w-full max-w-[50px]"></div>
-            <div className="pricing-grid pricing-grid-border relative bottom-8 h-[250px] w-full max-w-[50px]"></div>
+            {/* Add pricing grid divs here */}
           </div>
 
-          {/* <!-- stars --> */}
+          {/* Stars */}
           <div className="absolute -top-30 left-1/2 -z-1 h-60 w-full max-w-[482px] -translate-x-1/2 overflow-hidden">
             <div className="stars"></div>
             <div className="stars2"></div>
           </div>
 
-          {/* <!-- bg shapes --> */}
+          {/* Background shapes */}
           <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden rounded-3xl">
             <span className="absolute left-1/2 top-0 -z-1 h-full w-full -translate-x-1/2 bg-[url(/images/blur/blur-19.svg)] bg-cover bg-center bg-no-repeat"></span>
-
             <span className="absolute left-1/2 top-0 -z-1 aspect-[1170/592] w-full -translate-x-1/2">
               <Image
                 src="/images/blur/blur-20.svg"
@@ -53,13 +79,9 @@ const Support = () => {
             paragraph="Join our email list to receive the latest updates, features, and exclusive offers from VCel."
           />
 
-          {/* <!-- email sign-up form --> */}
+          {/* Email sign-up form */}
           <div className="form-box-gradient relative overflow-hidden rounded-[25px] bg-dark p-6 sm:p-8 xl:p-15">
-            <form
-              action="https://formbold.com/s/unique_form_id"
-              method="POST"
-              className="relative z-10"
-            >
+            <form onSubmit={handleSubmit} className="relative z-10">
               <div className="-mx-4 flex flex-wrap xl:-mx-10">
                 <div className="w-full px-4 md:w-1/2 xl:px-5">
                   <div className="mb-9.5">
@@ -70,6 +92,8 @@ const Support = () => {
                       Name
                     </label>
                     <input
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
                       id="name"
                       type="text"
                       name="name"
@@ -88,6 +112,8 @@ const Support = () => {
                       Email
                     </label>
                     <input
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                       id="email"
                       type="email"
                       name="email"
