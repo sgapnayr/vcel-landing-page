@@ -43,7 +43,7 @@ const Hero = () => {
             Welcome!
           </h1>
           <p className="mx-auto mb-9 max-w-[500px] font-medium md:text-lg">
-            VCel is your relationship companion, helping couples invest in their
+            VCEL is your relationship companion, helping couples invest in their
             connection with joint goals, milestone tracking, and escrow accounts
             for shared savings. Build stronger, long-lasting relationships
             today.
@@ -65,7 +65,7 @@ const Hero = () => {
         <Image
           className="mx-auto"
           src="./images/hero/hero.svg"
-          alt="VCel Hero"
+          alt="VCEL Hero"
           fill
         />
       </div>

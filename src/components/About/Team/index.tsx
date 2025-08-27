@@ -8,7 +8,7 @@ const Team = () => {
       <div className="mx-auto max-w-[1170px] px-4 sm:px-8 xl:px-0">
         <SectionTitle
           subTitle="Meet Our Team"
-          title="The People Behind VCel"
+          title="The People Behind VCEL"
           paragraph="Get to know the passionate team dedicated to helping couples build stronger, long-lasting relationships through innovation and thoughtful design."
         />
 

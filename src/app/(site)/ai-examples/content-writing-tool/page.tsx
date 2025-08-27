@@ -75,7 +75,7 @@ const ContentGeneratorPage = () => {
   return (
     <>
       <title>
-        Content Generator| VCel - The Relationship App for Long-Term Connections
+        Content Generator| VCEL - The Relationship App for Long-Term Connections
         & Trust
       </title>
       <meta name="description" content="This is AI Examples page for AI Tool" />

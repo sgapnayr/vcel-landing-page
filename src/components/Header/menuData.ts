@@ -3,16 +3,16 @@ import { Menu } from "@/types/menu";
 const menuData: Menu[] = [
   {
     id: 1,
-    title: "Home",
+    title: "",
     newTab: false,
     path: "/",
   },
-  {
-    id: 2,
-    title: "Vlog",
-    newTab: false,
-    path: "https://www.youtube.com/@captainryanpags",
-  },
+  // {
+  //   id: 2,
+  //   title: "Vlog",
+  //   newTab: false,
+  //   path: "https://www.youtube.com/@captainryanpags",
+  // },
   // {
   //   id: 4,
   //   title: "Blog",

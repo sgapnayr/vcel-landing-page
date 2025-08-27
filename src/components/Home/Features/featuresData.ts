@@ -17,7 +17,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 3,
-    title: "VCel Verified Background Checks",
+    title: "VCEL Verified Background Checks",
     description:
       "Ensure safety and trust in your relationship with our discreet verification feature.",
     icon: "/images/features/icon-03.svg",

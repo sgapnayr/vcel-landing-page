@@ -12,7 +12,7 @@ export default async function BlogSection() {
         <SectionTitle
           subTitle="Read Our Latest Blogs"
           title="Relationship Insights & Tips"
-          paragraph="Explore helpful tips, stories, and expert insights on building strong, long-lasting relationships with VCel."
+          paragraph="Explore helpful tips, stories, and expert insights on building strong, long-lasting relationships with VCEL."
         />
 
         <div className="grid grid-cols-1 gap-7.5 sm:grid-cols-2 lg:grid-cols-3">

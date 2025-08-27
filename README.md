@@ -68,6 +68,6 @@ Make sure to edit build command like this while you use Prisma as ORM while depl
 - Update signin & signup page design
 - Integrated Magic link signin &
 - Forgot password
-- Added loader on buttons# VCel
+- Added loader on buttons# VCEL
 
-# VCel
+# VCEL

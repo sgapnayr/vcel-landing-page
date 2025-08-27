@@ -9,7 +9,7 @@ const PricingGrids = () => {
         <SectionTitle
           subTitle="Get Started Today"
           title="Our Pricing Plans"
-          paragraph="Choose the best plan that suits your relationship journey. VCel offers flexible pricing options to help couples invest in their connection, set goals, and track milestones."
+          paragraph="Choose the best plan that suits your relationship journey. VCEL offers flexible pricing options to help couples invest in their connection, set goals, and track milestones."
         />
         <div className="grid grid-cols-1 gap-7.5 sm:grid-cols-2 lg:grid-cols-3">
           {pricingData &&

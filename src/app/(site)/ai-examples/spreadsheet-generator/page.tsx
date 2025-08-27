@@ -57,7 +57,7 @@ const SpreadsheetGeneratorPage = () => {
   return (
     <>
       <title>
-        Spreadsheet Generator | VCel - The Relationship App for Long-Term
+        Spreadsheet Generator | VCEL - The Relationship App for Long-Term
         Connections & Trust
       </title>
       <meta name="description" content="This is AI Examples page for AI Tool" />

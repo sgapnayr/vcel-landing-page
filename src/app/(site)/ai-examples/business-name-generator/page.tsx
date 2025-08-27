@@ -73,7 +73,7 @@ const BusinessNameGeneratorPage = () => {
   return (
     <>
       <title>
-        Business Name Generator | VCel - The Relationship App for Long-Term
+        Business Name Generator | VCEL - The Relationship App for Long-Term
         Connections & Trust
       </title>
       <meta name="description" content="This is AI Examples page for AI Tool" />

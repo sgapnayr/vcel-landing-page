@@ -73,7 +73,7 @@ const SinglePricing = ({ price }: any) => {
       {price.nickname === "Medium" && (
         <ul className="flex flex-col gap-4">
           <OfferItem text="All Starter features" />
-          <OfferItem text="VCel Verified background checks" />
+          <OfferItem text="VCEL Verified background checks" />
           <OfferItem text="Priority support" />
           <OfferItem text="Real-time notifications" />
         </ul>
