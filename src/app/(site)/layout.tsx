@@ -10,6 +10,7 @@ import "../../styles/tailwind.css";
 import AuthProvider from "../context/AuthContext";
 import ToasterContext from "../context/ToastContext";
 import { Toaster } from "react-hot-toast";
+import { ClerkProvider } from "@clerk/nextjs";
 
 export default function RootLayout({
   children,
@@ -17,24 +18,26 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>
-        <NextTopLoader
-          color="#8646F4"
-          crawlSpeed={300}
-          showSpinner={false}
-          shadow="none"
-        />
-        <AuthProvider>
-          <ToasterContext />
-          <Toaster />
-          <Header />
-          {children}
-          <Footer />
+    <ClerkProvider>
+      <html lang="en">
+        <body>
+          <NextTopLoader
+            color="#8646F4"
+            crawlSpeed={300}
+            showSpinner={false}
+            shadow="none"
+          />
+          <AuthProvider>
+            <ToasterContext />
+            <Toaster />
+            <Header />
+            {children}
+            <Footer />
 
-          <ScrollToTop />
-        </AuthProvider>
-      </body>
-    </html>
+            <ScrollToTop />
+          </AuthProvider>
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }
